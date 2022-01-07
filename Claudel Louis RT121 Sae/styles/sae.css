@@ -1,0 +1,168 @@
+body{
+	background-image: url("../styles/fond.jpg");
+	
+	margin: 0 ;
+	padding: 0;
+}
+
+
+ .t{
+ 	box-shadow: 8px 8px 8px black;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: 2.5% ;
+    margin-right:  2.5% ;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: #7EDAF2 ;
+    font-size: 20px;
+    padding: 2.5% ;
+	
+ }
+
+header{
+	text-align: center;
+	color: none ; 
+	font-size: 2em  ; 
+	background-color: #7EDAF2 ;
+
+
+}
+.presentation{
+	display: flex;
+   
+    
+}
+
+img{
+	max-height: 100%;
+	max-width: 100%;
+}	
+.pro{
+	flex: 1;
+	display: inline-block ; 
+	width: 35%;
+	height: 35%;
+
+}
+.rt{
+
+}
+.p{
+	box-shadow: 8px 8px 8px black;
+	border-radius: 30px;
+	
+	margin-left: auto ;
+    margin-right:  auto ;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: #7EDAF2 ;
+    font-size: 20px ;
+    padding: 2.5%;
+    width: 70%;
+
+}
+.civi{
+	
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 50%;
+ 	width: 50%;
+}
+span {
+	margin-left: 5%;
+}
+
+.projet{
+	box-shadow: 8px 8px 8px black;
+	border-radius: 30px;
+	
+	margin-left: 2.5% ;
+    margin-right:  2.5% ;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: #7EDAF2 ;
+    font-size: 20px ;
+    padding: 2.5%;
+
+}
+.image{
+	
+	text-align: center;
+}
+
+h2{
+	text-align: center ;
+}
+
+.imagecc{
+	display: inline-block;
+	height: 30%;
+ 	width: 30%;
+ 	text-align: center;
+
+}
+.taille{
+
+	height: 40%;
+ 	width: 40%;
+}
+.bf{
+	text-align: center;
+}
+.listep{
+	list-style-type: none;
+	text-align: center ;
+}
+
+.btn{
+	heigh: 100px;
+	with:100px ;
+	
+	border-radius: 50% ;
+	display: flex;
+	align-items: center ;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+}
+.icone{
+	width: 50px ;
+}
+
+
+@media (max-width:1000px) {
+	.presentation{
+		display: flex;
+		flex-direction: column;
+		
+		
+	}
+	.pro{
+		display: flex;
+		flex-direction: column;
+		
+		width: 80%;
+		height: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+
+
+}
+
+
+@media (min-width:1000px) {
+	.btn{
+	heigh: 0px;
+	width: 0px ;
+	}
+.icone{
+	width: 0px ;
+	}
+
+
+}
